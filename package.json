@@ -1,0 +1,19 @@
+{
+  "name": "proxyserveripfs",
+  "version": "1.0.0",
+  "description": "This is a package for creating a proxy between client and IPFS API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "IPFS",
+    "proxy"
+  ],
+  "author": "Long",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.18.1"
+  }
+}
